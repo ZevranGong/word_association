@@ -1,6 +1,7 @@
-package word_association;
+package wordAssociation.core.components;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Defines the interface for word block
@@ -20,7 +21,7 @@ public interface Block {
 	 * Getter
 	 * @return neighbor blocks
 	 */
-	ArrayList<String> getNeighbor();
+	List<String> getNeighbor();
 	
 	/**
 	 * Setter
