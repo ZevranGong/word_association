@@ -6,7 +6,6 @@ import java.util.List;
 /**
  * Defines the interface for word block
  * 
- * @author Zevran
  * 
  */
 public interface Block {
